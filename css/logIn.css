@@ -1,0 +1,97 @@
+body{
+background-color:#eeeff3;
+text-align:center
+}
+.main{
+position:relative;
+margin-top:190px
+}
+img#logo{
+margin-top:50px
+}
+#first{
+width:308px;
+margin-top:0;
+padding:28px 25px;
+background-color:#fff;
+border:1px solid #000;
+border-radius:5;
+position:absolute;
+left:50%;
+margin-left:-180px;
+top:0
+}
+#second{
+width:308px;
+margin-top:0;
+padding:28px 25px;
+background-color:#fff;
+display:none;
+border:1px solid #000;
+border-radius:5;
+position:absolute;
+left:50%;
+margin-left:-180px;
+top:0
+}
+
+
+h3{
+margin-top:0
+}
+.buttonE, .buttonP,.buttonN, .buttonC
+{
+padding:7px;
+width:100%;
+height:40px;
+margin-top:15px;
+font-size:18px
+}
+/*input[type=text],[type=password]  input[type=button]  input[type=button]:hover*/
+.buttonB{
+background:linear-gradient(to bottom,#22abe9 5%,#36caf0 100%);
+box-shadow:inset 0 1px 0 0 #7bdcf4;
+border:1px solid #0F799E;
+color:#fff;
+width:289px;
+height:40px;
+margin-top:15px;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+text-shadow:0 1px 0 #13506D
+}
+.buttonB:hover{
+background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
+}
+a{
+text-decoration:none;
+color:#6495ed
+}
+p#two{
+margin-bottom:0
+}
+
+input#register
+{
+	width: 256px;
+	font-size: 16px;
+}
+
+/*.input-group-btn
+{
+	margin-top: 4px;
+	
+}*/
+
+.bttnNew
+{
+	height: 34px;
+	margin-top: 4px;
+}
+
+.buttonSearch
+{
+	height: 34px;
+	margin-top: 4px;
+}

@@ -1,0 +1,136 @@
+#wrapper
+{
+    background-color: white;
+   height: -webkit-fill-available;
+}
+
+.wrapContentIn
+{
+    width: 100%;
+    /*height: -webkit-fill-available;
+    background-color: white;*/
+}
+.outerContent
+{
+    width: 982px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    border: solid 1px #d1d1d1;
+    box-shadow: 0 1px 6px 0 #b8b8b8;
+    min-height: 500px;
+    margin-top: 50px;
+}
+
+.wrapContent .outerContent
+{
+        text-align: initial;
+    padding: 65px 94px;
+    /*padding: 25px 20px;*/
+    
+}
+
+#main-content.twocol-right
+{
+    /*width:455px;*/
+    float:left;
+    width:537px;
+}
+
+#main-content h1
+{
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: -0.02em;
+}
+
+#main-content p{
+    line-height: 1.5em;
+    margin: 0 0 1.5em;
+}
+
+#main-content strong
+{
+    font-weight: bold;
+}
+
+#side-content.twocol-right
+{
+    width: 0;
+    float: right;
+    margin-top: -453px;
+    /*margin-right: -155px;*/
+}
+
+.module.most-popular
+{
+    padding:14px 15px  20px 0;
+    margin-bottom: 20px;
+    /*float: right;*/
+    background-color: white;
+    height: 300px;
+    width:249px;
+    border:solid 1px #bfbfbf;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px 0 #d7d7d7;
+    /*width: 163px;*/
+}
+
+.module.most-popular h3
+{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#content
+{
+    width: auto;
+    padding: 10px 15px;
+}
+
+#side-content .module ul .sidenav
+{
+    padding: 0;
+    margin: 0;
+}
+
+#side-content #sidenav li{
+    width: 100%;
+    padding: 0;
+    margin: 3px 0 7px 0;
+    margin-bottom: 20px;
+    list-style: none;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+    /*background: url("../images/bluearrow.png")  left no-repeat;
+    width: 22px;
+    height: 15px;*/
+}
+
+#side-content #sidenav li a{
+    padding: 9px 8px 4px 34px;
+    margin-bottom: 20px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 15px;
+    display: initial;
+    /*float: left;*/
+    line-height: 18px;
+    background: url("../images/bluearrow.png")  left no-repeat;
+    width: 22px;
+    height: 15px;
+}
+
+.imageBook
+{
+    width: 32px;
+    height: 20px;
+    margin-top: -4px;
+    padding-right: 7px;
+    padding-left: 1px;
+}

@@ -1,0 +1,110 @@
+.tblListing
+{
+    width:99%; 
+   background-color:white;
+    /*align:center;
+    cellpadding:0;
+    cellspacing:0;*/
+}
+#wrapper
+{
+    background-color: white;
+   height: -webkit-fill-available;
+}
+
+.listing
+{
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+    max-width: 960px;
+    min-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 1px 0;
+}
+.paraTopCart
+{
+    text-align: justify;
+}
+
+table{
+    BORDER-COLLAPSE: collapse;
+}
+
+table[Attributes] {
+    width: 99%;
+    background-color: rgb(255, 255, 255);
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+td {
+    font-family: verdana, helvetica, arial, sans-serif;
+    /* color: #000; */
+    font-size: 12px;
+}
+div#breadcrumbs {
+    font-size: 9pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+span{
+
+    font-weight: bold;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.tableCart
+{
+    border-top-color: rgb(102, 102, 102);
+    border-right-color: rgb(102, 102, 102);
+    border-bottom-color: rgb(102, 102, 102);
+    border-left-color: rgb(102, 102, 102);
+    width: 100%;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+

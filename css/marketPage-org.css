@@ -1,0 +1,291 @@
+.imageShown, .shownImg
+{
+    display: inline-block;
+
+}
+
+.imageHidden, .hiddenImg
+{
+display: none;
+}
+
+.innerCarousel, .innerCarouselTwo
+{
+    width: 500px;;
+    height: 400px;
+    position: relative;
+    float:left;
+}
+
+.innerCarousel img, .innerCarouselTwo img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.prev, .next,  .nextTwo
+{
+    float: left;
+    margin-top: 170px;
+
+}
+
+ .prev
+{
+    margin-right: 15px;
+
+}
+
+#wrapper, body
+{
+    height: auto;
+}
+
+.outerCarousel
+{
+    background-color: bisque;
+    width: 600px;
+    height: 466px;
+}
+
+.wrapCarousel
+{
+    width: 100%;
+    
+}
+.wrapCarouselIn
+{
+    margin: auto;
+    display: inline-flex;
+}
+
+.outerCarouselTwo
+{
+    background-color: rgb(242, 222, 222);
+    width: 600px;
+    height: 466px;
+    margin-left: 100px;
+}
+
+.button
+{
+    width: 100px;
+    height: 40px;
+    margin-top: 24px;
+    background-color: #0769ad;
+}
+
+.buttonSell
+{
+    width: 150px;
+    height: 40px;
+    margin-top: 24px;
+    background-color: #0769ad;
+    
+}
+
+/*--------------------------items selling-------*/
+h2{
+    text-transform: none;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+hr
+{
+    width:25%;
+    height: 2px;
+     margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.wrapItems
+{
+    width: 100%;
+}
+
+.innerWrapItems
+{
+    margin-left:auto;
+    margin-right: auto; 
+}
+
+.sellItem
+{
+  background-color: #ccc;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 2px rgba(0, 0, 0,.24);
+  max-height: 379px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  max-width: 226px;
+  transition: all 0.2s ease-in-out;  
+    
+  
+}
+
+.imageSellBooks
+{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 300px;
+}
+
+img{
+    max-width: 100%;
+}
+.bookText
+{
+    padding: 8px;
+}
+
+.text-center
+{
+    text-align:center;
+}
+
+.sellItem .texTitle, .bidItem .texTitle
+{
+font-weight: 400;
+color: #4a4a4a;
+font-size: 14px;
+line-height: 16px;
+margin: 2px 0 0 0;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.text-truncate
+{
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+}
+
+.textSmall
+{
+    color: #777;
+    font-weight: normal;
+}
+
+.numberItems
+{
+    font-size: 11px;
+}
+
+.myBtnItems
+{
+    width: 108px;
+    height: 30px;
+    color: black;
+    background-color: #0769ad;
+    line-height: 10px;
+}
+.collection
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.bidItem
+{
+  background-color: #ccc;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 2px rgba(0, 0, 0,.24);
+  max-height: 410px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  max-width: 226px;
+  transition: all 0.2s ease-in-out;  
+}
+
+.bidItem img{
+    height: 200px;
+}
+
+.price
+{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p{
+    line-height: 15px;
+}
+
+/*body{
+    height: 1500px;
+}*/
+
+.price
+{
+    position: absolute;
+    bottom:137px;
+    right: 9px;
+    background: #080808;
+    color: wheat;
+    padding: 5px;
+    font-size: 21px;
+}
+
+
+/*.top{
+
+    color: white;
+    width: 60px;
+    height:60px;
+    float: right;
+    background-color: #4c4c4c;
+    width: 50px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: bolder;
+    box-shadow: 7px 6px 10px #888888;
+    padding-top: 6px;
+    margin-top: -84px;
+}*/
+
+/*.caretAlign
+{
+    position: absolute;
+    margin-top: -21px;
+    margin-left: 83px;
+}*/
+
+.caretAlign
+{
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 86px;
+}
+
+.caretAlignUp
+{
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 86px;
+}
+
+ .caretHelp
+{
+    padding-left: -9px;
+    transition: all 1s ease-in-out;
+    width: 10px;
+    height: 10px;
+    color: white;
+    
+}
+
+.toggleHide
+{
+    cursor: pointer;
+}

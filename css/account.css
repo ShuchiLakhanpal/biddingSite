@@ -1,0 +1,44 @@
+#wrapper {
+    background-color: white;
+    height: -webkit-fill-available;
+}
+
+.cartBtn {
+    background-color: rgb(40, 96, 144);
+    width: 100px;
+    height: 38px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+
+.panel-default>.panel-heading .panelAcc {
+    height: 865px;
+}
+
+.top topAcc {
+    margin-top: -5px;
+}
+
+.mainContent {
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+    max-width: 960px;
+    min-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel-heading {
+    padding: 0;
+}
+
+#myToolTip {
+    display: none;
+}

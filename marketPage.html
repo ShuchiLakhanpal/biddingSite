@@ -1,0 +1,581 @@
+<!DOCTYPE Html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+    <title>Checkout Project</title>
+    <link rel="shortcut icon" type="images/x-icon" href="images/favicon.ico">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainStyleSheet.css">
+    <link rel="stylesheet" href="css/landingPage.css">
+    <link rel="stylesheet" href="css/marketPage.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/marketPage.js">
+    </script>
+    <!--<script type="text/javascript" src="js/register.js"> </script>
+	<script type="text/javascript" src="js/landingPage.js"></script>-->
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/responsiveNav.js">
+    </script>
+    <script type="text/javascript" src="js/market.js"></script>
+</head>
+
+<body>
+
+    <section id="wrapper">
+
+        <!--navigation-->
+
+        <nav id="myNavbar" class="navbar navbar-inverse  nav-pills nav-stacked  " role="navigation">
+            <section class="container-fluid">
+                <section class=" row ">
+                    <section class=" navbar-header ">
+
+                        <img src="images/bluee.png" class="logo justifiedLogo">
+                    </section>
+                    <!--navbar-header-->
+                    <section class="navbar-collapse collapase  ">
+                        <!--<section class="navBarlogo">
+							-->
+                        <a href="javascript:void(0)" class="closeNav backgroundOpenClose">&times;</a>
+                        <div id="mobileView">
+                            <ul class="nav navbar-nav justified alignList desktop">
+                                <li><a href="landingPage.html ">Home</a></li>
+                                <li class="current"><a href="marketPage.html">Market</a></li>
+                                <li><a href="account.html">Account</a></li>
+                                <li><a href="landingPage.html">Contact</a></li>
+                                <li class="arrowToggle helpMenu"><a href="">Help<span class="caret caretDown"></span><span class="caretHelp">
+								<i class="fa fa-chevron-circle-up " aria-hidden="true"></i></span></a>
+                                    <!--<div>-->
+                                    <ul class="helpMenu drop-menu ">
+                                        <li id="faq" class="help"><a href="help.html ">FAQ</a></li>
+                                        <li class="help" id="helpTwo"><a href="help.html ">How to Bid and Sell</a></li>
+                                    </ul>
+                                    <!--</div>-->
+                                </li>
+                                <li class="signUpMenu"><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="form">
+                            <form class="form-search ngen-search-form navbar-form navbar-left" action="" method="get">
+                                <section class="input-group justifiedSearch searchMobile">
+                                    <input type="text" name="q" id="search-input" class="form-search-input buttonSearch" placeholder="Search by title, ISBN" dir="ltr">
+                                    <span id="search-trigger" class="form-search-submit">&#x1f50e;</span>
+                                </section>
+                            </form>
+                        </div>
+
+                    </section>
+
+                </section>
+                <!--End row-->
+            </section>
+            <!--End container-->
+        </nav>
+        <!--end of navigation section>-->
+        <div id="navIcon">
+            <span style="font-size:30px;cursor:pointer" class="openNav backgroundOpenClose">&#9776;</span>
+        </div>
+        <!--end of navigation section>-->
+        <!--carousel-->
+        <section class="wrapCarousel">
+            <section class="wrapCarouselIn">
+                <section class="outerCarousel  ">
+                    <a href="#" class="prev"><img src="images/redarrowP.png" alt="blue"></a>
+                    <section class="innerCarousel">
+                        <img src="images/booksale2.png" class="imageShown" alt="image1">
+                        <img src="images/usedsale.jpg" class="imageHidden" alt="image1">
+                        <img src="images/unique.jpg" class="imageHidden" alt="image1">
+                        <img src="images/usedred.jpg" class="imageHidden" alt="image1">
+                        <img src="images/booksalered.jpg" class="imageHidden" alt="image1">
+
+                    </section>
+                    <!--end carousel inner-->
+                    <a href="#" class="next"><img src="images/redarrowN.png" alt="blue"></a>
+
+                    <!--<button type="submit" class="btn btn-primary button">Bid Here</button>-->
+                    <form id="bidForm" action="market.html" method="get">
+                        <button type="submit" class="btn btn-primary button" formaction="market.html">Bid Here</button>
+                    </form>
+
+                </section>
+                <!--outer carousel-->
+
+                <section class="outerCarouselTwo">
+                    <a href="#" class="prev"><img src="images/redarrowP.png" alt="blue"></a>
+                    <section class="innerCarouselTwo">
+                        <img src="images/bookssell.jpg" class="shownImg" alt="image1">
+                        <img src="images/sellimage.jpg" class="hiddenImg" alt="image1">
+                        <img src="images/sellonline.png" class="hiddenImg" alt="image1">
+                        <img src="images/piggytext.png" class="hiddenImg" alt="image1">
+                        <img src="images/green.jpg" class="hiddenImg" alt="image1">
+
+                    </section>
+                    <!--end carousel inner-->
+                    <a href="#" class="next"><img src="images/redarrowN.png" alt="blue"></a>
+                    <form id="sellBooksForm" action="sell.php" method="get">
+                        <button type="submit" class="btn btn-primary buttonSell" formaction="sell.php">Sell Books Here</button>
+                    </form>
+                </section>
+                <!--outer carousel-->
+            </section>
+        </section>
+        <!--end wrap carousel-->
+
+
+        <!--bid-->
+        <section class="wrapItems">
+            <section class="innerWrapItems">
+                <section class="container">
+                    <section class="row">
+
+                        <h2>Books For Bidding</h2>
+                        <hr>
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/katie.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle"> Text Book</h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$0.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button" data-toggle="modal" data-target="#myModal">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItems-->
+                        </section>
+                        <!--end col-->
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/justb.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle"> Text Book</h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$0.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItem-->
+                        </section>
+                        <!--end col-->
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/psychology2.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle">Psychology Text</h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$40.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItem-->
+                        </section>
+                        <!--end col-->
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/game.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle"> Text Book</h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$3.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItem-->
+                        </section>
+                        <!--end col-->
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle">Text Book</h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$0.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItem-->
+                        </section>
+                        <!--end col-->
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/brown.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle">Literature </h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$5.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItem-->
+                        </section>
+                        <!--end col-->
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle">Psychology Text</h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$0.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItem-->
+                        </section>
+                        <!--end col-->
+                        <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                            <section class="bidItem">
+                                <a href="#">
+                                    <img src="images/math.jpg" alt="text" class="imageSellBooks">
+                                    <section class="bookText text-center">
+                                        <h4 class="texTitle">Mathematics </h4>
+                                        <p class="text-book text-truncate">
+                                            <small class="textSmall">Author's Name</small>
+                                        </p>
+                                        <p class="price">$5.00</p>
+                                        <button class="btn btn-default myBtnItems" type="button" id="bid">Bid Now
+								 </button>
+                                    </section>
+                                    <!--end bookText-->
+
+                                </a>
+
+                            </section>
+                            <!--end bidItem-->
+                        </section>
+                        <!--end col-->
+                    </section>
+                    <!--end row-->
+                </section>
+                <!--end container-->
+            </section>
+            <!--end inner wrap-->
+        </section>
+        <!--end wrapItems-->
+        <!--list-->
+        <section class="wrapItems">
+            <section class="innerWrapItems">
+                <section class="container">
+                    <section class="row">
+                        <div class="toggleHideSell">
+                            <h2>Books For Selling</h2><span><i class="fa fa-chevron-circle-down caretAlign" aria-hidden="true"></i>
+													<!-- </div> -->
+													<!-- <div> -->
+																<i class="fa fa-chevron-circle-up caretAlignUp  " aria-hidden="true"></i></span>
+
+                        </div>
+                        <hr>
+                        <section class="openToggleSell">
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+
+                                            <button class="btn btn-default myBtnItems" type="button" formaction="market.html">Purchase</button>
+
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+                                            <button class="btn btn-default myBtnItems" type="button">Purchase</button>
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+                                            <button class="btn btn-default myBtnItems" type="button">Purchase</button>
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+                                            <button class="btn btn-default myBtnItems" type="button">Purchase</button>
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+                                            <button class="btn btn-default myBtnItems" type="button">Purchase</button>
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+                                            <button class="btn btn-default myBtnItems" type="button">Purchase</button>
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+                                            <button class="btn btn-default myBtnItems" type="button">Purchase</button>
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                            <section class="col-xs-6 col-sm-4 col-md-3 col-xl-12 collection">
+                                <section class="sellItem">
+                                    <a href="#">
+                                        <img src="images/psychology.jpg" alt="text" class="imageSellBooks">
+                                        <section class="bookText text-center">
+                                            <h4 class="texTitle">Psychology Text</h4>
+                                            <p class="text-book text-truncate">
+                                                <small class="textSmall">Author's Name</small>
+                                            </p>
+                                            <p class="numberItems">5 items</p>
+                                            <button class="btn btn-default myBtnItems" type="button">Purchase</button>
+                                        </section>
+                                        <!--end bookText-->
+
+                                    </a>
+
+                                </section>
+                                <!--end sellitems-->
+                            </section>
+                            <!--end col-->
+                        </section>
+                    </section>
+                    <!--end row-->
+                </section>
+                <!--end container-->
+                <p><a href="#" class="top"><i class="fa fa-chevron-circle-up " aria-hidden="true"></i></a></p>
+            </section>
+            <!--end inner wrap-->
+        </section>
+        <!--end wrapItems-->
+    </section>
+    <!--wrapper-->
+    <footer>
+        <ul class="social">
+            <li>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" class="icons" /></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com" target="_blank"><img src="images/gPlus.png" class="iconsGPlus" /></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" class="iconsTwitter" /></a>
+            </li>
+        </ul>
+        <section>
+            <h6 id="cpright">@copyright 2017</h6>
+        </section>
+        <section class="textFooter">
+            <ul id="footerList">
+                <li><a href="landingPage.html">About Us</a></li>
+                <li><a href="landingPage.html">Meet Our Team</a></li>
+            </ul>
+        </section>
+    </footer>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Bidding Information</h4>
+                </div>
+                <div class="modal-body ">
+                    <form id="modal-bid" name="bid" action="" method="post">
+                        <table class="modalBid">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label for="date">Bidding Date</label>
+                                        <input type="text" name="date" class="modalInput" id="date" placeholder="Add Date">
+                                    </td>
+                                </tr><br>
+                                <tr>
+                                    <td>
+                                        <label for="itemName"> Product Name</label>
+                                        <input type="text" name="itemName" class="modalInput" id="itemName" placeholder="Enter name of Product ">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="price">Price</label>
+                                        <input type="text" name="price" class="modalInput" id="bidprice" placeholder="Enter Price">
+                                    </td>
+                                </tr>
+                                <!--<tr>
+                                    </td>
+                                    <label for="quantity">Quantity</label>
+                                    <input type="text" name="quantity" id="quantity" value="Enter Quantity">
+                                    </td>
+																		</tr>
+																		-->
+
+                                <!--</tr>-->
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE Html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+    <title>Checkout Project</title>
+    <link rel="shortcut icon" type="images/x-icon" href="images/favicon.ico">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mainStyleSheet.css">
+    <link rel="stylesheet" href="css/landingPage.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <!--<link rel="stylesheet" href="css/marketPage-org.css">-->
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/register.js">
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/responsiveNav.js">
+    </script>
+    <script type="text/javascript" src="js/market.js"></script>
+</head>
+
+<body>
+
+    <section id="wrapper">
+
+        <!--navigation-->
+
+        <nav id="myNavbar" class="navbar navbar-inverse  nav-pills nav-stacked  " role="navigation">
+            <section class="container-fluid">
+                <section class=" row ">
+                    <section class=" navbar-header ">
+
+                        <img src="images/bluee.png" class="logo justifiedLogo">
+                    </section>
+                    <!--navbar-header-->
+                    <section class="navbar-collapse collapase  ">
+                        <!--<section class="navBarlogo">
+                            -->
+                        <a href="javascript:void(0)" class="closeNav backgroundOpenClose">&times;</a>
+                        <div id="mobileView">
+                            <ul class="nav navbar-nav justified alignList desktop">
+                                <li><a href="landingPage.html ">Home</a></li>
+                                <li class="current"><a href="marketPage.html">Market</a></li>
+                                <li><a href="account.html">Account</a></li>
+                                <li><a href="landingPage.html">Contact</a></li>
+                                <li class="arrowToggle helpMenu"><a href="">Help<span class="caret caretDown"></span><span class="caretHelp">
+                                <i class="fa fa-chevron-circle-up " aria-hidden="true"></i></span></a>
+                                    <!--<div>-->
+                                    <ul class="helpMenu drop-menu ">
+                                        <li id="faq" class="help"><a href="help.html ">FAQ</a></li>
+                                        <li class="help" id="helpTwo"><a href="help.html ">How to Bid and Sell</a></li>
+                                    </ul>
+                                    <!--</div>-->
+                                </li>
+                                <li class="signUpMenu mobileCart"><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="form">
+                            <form class="form-search ngen-search-form navbar-form navbar-left" action="" method="get">
+                                <section class="input-group justifiedSearch searchMobile">
+                                    <input type="text" name="q" id="search-input" class="form-search-input buttonSearch" placeholder="Search by title, ISBN" dir="ltr">
+                                    <span id="search-trigger" class="form-search-submit">&#x1f50e;</span>
+                                </section>
+                            </form>
+                        </div>
+
+                    </section>
+
+                </section>
+                <!--End row-->
+            </section>
+            <!--End container-->
+        </nav>
+        <!--end of navigation section>-->
+        <div id="navIcon">
+            <span style="font-size:30px;cursor:pointer" class="openNav backgroundOpenClose">&#9776;</span>
+        </div>
+
+
+        <!--top Content-->
+        <section class="col-xs-12 col-md-12">
+            <section class="wrapContentIn">
+                <section class="outerContent">
+                    <section class="container">
+                        <section class="row">
+                            <section id="main-content" class=" listing ">
+                                <!--<form action="cart/update" method="post">-->
+                                <table class="cartTable" cellpadding="6" cellspacing="1">
+                                    <tbody>
+                                        <tr>
+                                            <!--<td class="columnTop">
+                                                <a href="#" id="headerLink"><img id="topImg" src="images/bluee.png" alt="Bid&Sell Books" class="topImg"></a>
+                                            </td>-->
+                                            <td class="topNavLinks" align="right">
+                                                <a href="account.html"><strong class="strongText">Your Account</strong>
+                                                </a>&nbsp;|&nbsp;
+                                                <a href="#"><strong class="strongText">Your Bid&Sell Basket</strong>
+                                                </a>&nbsp;|&nbsp;
+                                                <a href="/help.aspx"><strong class="strongText">Help</strong>
+                                                </a>&nbsp;
+                                            </td>
+
+                                        </tr>
+                                        <!--end first tr-->
+                                        <tr>
+                                            <td colspan="2" class="colTwo">
+                                                &nbsp;
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <!--end first tbody-->
+                                </table>
+                                <form action="cart/update" method="post">
+                                    <!--<div>
+                                        <input type="hidden" name="" id="" value="">
+                                    </div>-->
+                                    <table class="tableblue">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table cellpadding="0" cellspacing="0" class="tableTwo">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" class="columnMid">
+                                                                    <h4 class="heading4">Bid&Sell Cart</h4>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!--end inner table-->
+                                                    <table cellpadding="4" class="innerTable">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div id="breadcrumbs">
+                                                                        <a href="#" class="breadCrumbs">Bid&Sell Home</a> > Bid&Sell Cart
+                                                                    </div>
+                                                                    &nbsp; &nbsp;
+                                                                    <p class="paraTextCart">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                                        laboris nisi ut aliquip ex ea
+                                                                    </p>&nbsp;
+                                                                    <!--<span id="contentPlaceHolder1_lblMsg" class="msg"></span>-->
+                                                                </td>
+                                                                <td align="center" class="columnMid">
+                                                                    <!--<h4 class="heading4">Bid&Sell Cart</h4>-->
+                                                                </td>
+                                                            </tr>
+                                                            <tr id="contentPlaceHolder1_RowInstructions">
+                                                                <td></td>
+
+                                                            </tr>
+                                                            <!--<tr>
+                                                                <td>
+                                                                    &nbsp; &nbsp; &nbsp;
+                                                                    <a href="/index.php" class="action"><strong> > New Search</strong></a>
+                                                                </td>
+                                                            </tr>-->
+                                                            <tr id="contentPlaceHolder1_RowCart">
+                                                                <td colspan="2">
+                                                                    <table width="100%" border="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <div align="right">
+                                                                                        <span id="contentPlaceHolder1_lblCurrency"></span>
+                                                                                    </div>
+                                                                                    <table id="TableCart" class="tableCart cart-block" cellspacing="0" cellpadding="0" align="center">
+                                                                                        <tbody>
+                                                                                            <tr class="spaceunder">
+                                                                                                <td align="center">
+                                                                                                    <span id="contentPlaceHolder1_contentCart_lblMsg" class="msg"></span>
+                                                                                                </td>
+                                                                                                <th>Product</th>
+                                                                                                <th>Quantity</th>
+                                                                                                <th> Condition</th>
+                                                                                                <th class="itemPrice">Price</th>
+                                                                                            </tr>
+                                                                                            &nbsp; &nbsp; &nbsp;
+                                                                                            <tr></tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                </td>
+                                                                                                &nbsp; &nbsp; &nbsp;
+                                                                                                <td>
+                                                                                                </td>
+                                                                                                <td class="rightTotal rightCart"><strong>Total</strong></td>
+
+
+                                                                                                <td class="rightCart">$</td>
+                                                                                            </tr>
+                                                                                            <!--<tr>
+                                                            <td>
+                                                                <p><button class="btn- btn-default cartBtn" type="submit">Update Cart</button>
+                                                                <a class="btn- btn-default cartBtn cartBack" href="cart">Go To Cart</a></p>
+                                                            </td>
+                                                        </tr>-->
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p><button class="btn- btn-default cartBtn" type="submit">Update Cart</button>
+                                                                        <a class="btn- btn-default cartBtn cartBack" href="register.html">Sign In For Checkout</a></p>
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                        <!--end of innerTable's tbody-->
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--end table 2-->
+                                </form>
+                                <!--end form-->
+
+                            </section>
+                            <!--end container-->
+                        </section>
+                        <!--end row-->
+                    </section>
+                    <!--end col-->
+                </section>
+                <!--end outerContent-->
+            </section>
+            <!--end wrap in-->
+        </section>
+        <!--end outer wrapcontent-->
+
+        <footer>
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" class="icons" /></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com" target="_blank"><img src="images/gPlus.png" class="iconsGPlus" /></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" class="iconsTwitter" /></a>
+                </li>
+            </ul>
+            <section>
+                <h6 id="cpright">@copyright 2017</h6>
+            </section>
+            <section class="textFooter">
+                <ul id="footerList">
+                    <li><a href="landingPage.html">About Us</a></li>
+                    <li><a href="landingPage.html">Meet Our Team</a></li>
+                </ul>
+            </section>
+        </footer>
+</body>
+
+</html>

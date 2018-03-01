@@ -1,0 +1,149 @@
+#wrapper {
+    background-color: white;
+    height: -webkit-fill-available;
+}
+
+#main-content {
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+    max-width: 960px;
+    min-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-align: center;
+}
+
+.paraTextCart {
+    /*text-align: justify;*/
+    text-align: initial;
+    margin-top: 24px;
+}
+
+.cartTable {
+    /*width: 100%;*/
+    border: 0;
+    background-color: white;
+}
+
+.columnTop {
+    width: 42%;
+    padding-top: 0;
+}
+
+#breadcrumbs {
+    float: left;
+    margin-top: 10px;
+}
+
+.topImg {
+    border-width: 0;
+    width: 57px;
+    height: 49px;
+    float: left;
+}
+
+.strongText {
+    font-size: 16px;
+}
+
+.topNavLinks {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.colTwo {
+    background-color: rgb(40, 96, 144);
+    width: 758px;
+}
+
+.tableTwo {
+    width: 100%;
+    border: 0;
+}
+
+.tableblue {
+    width: -webkit-fill-available;
+}
+
+.heading4 {
+    text-align: center;
+}
+
+.innerTable {
+    width: 100%;
+    background-color: white;
+    border: 0;
+}
+
+.columnMid {
+    background-color: #8799a9;
+}
+
+.pageHeader {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.msg {
+    font-weight: bold;
+    color: red;
+}
+
+.tableCart {
+    /*width: 100%;*/
+    border-color: #666666;
+}
+
+.cartBtn {
+    background-color: rgb(40, 96, 144);
+    width: 257px;
+    height: 38px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    list-style: none;
+}
+
+.cartBack {
+    margin-left: 10px;
+    padding-top: 7px;
+}
+
+
+/*.itemPrice
+{
+    text-align: right;
+}*/
+
+.rightTotal {
+    font-size: 15px;
+}
+
+.rightCart {
+    text-align: right;
+}
+
+tr.spaceUnder>td {
+    padding-bottom: 1em;
+}
+
+.cart-block {
+    background-color: rgb(221, 221, 221);
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+}

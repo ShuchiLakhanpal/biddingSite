@@ -1,0 +1,287 @@
+.imageShown,
+.shownImg {
+    display: inline-block;
+}
+
+.imageHidden,
+.hiddenImg {
+    display: none;
+}
+
+.innerCarousel,
+.innerCarouselTwo {
+    width: 500px;
+    height: 391px;
+    margin-top: -18px;
+    /*position: relative;*/
+    float: left;
+}
+
+.innerCarousel img,
+.innerCarouselTwo img {
+    width: 100%;
+    height: 296px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.prev,
+.next,
+.prev1,
+.next1,
+.nextTwo {
+    float: left;
+    margin-top: 170px;
+}
+
+.prev {
+    margin-right: 15px;
+}
+
+
+/*.next
+{
+    margin-left: 20px;
+
+}*/
+
+.outerCarousel {
+    background-color: #c5d9e6;
+    width: 600px;
+    height: 334px;
+}
+
+.wrapCarousel {
+    width: 100%;
+    /*margin-bottom: -54px;*/
+}
+
+.wrapCarouselIn {
+    margin: auto;
+    display: inline-flex;
+}
+
+.outerCarouselTwo {
+    background-color: #c5d9e6;
+    width: 600px;
+    height: 332px;
+    margin-left: 100px;
+}
+
+.button {
+    width: 100px;
+    height: 28px;
+    margin-top: -138px;
+    background-color: #0769ad;
+    padding-top: 2px;
+}
+
+.buttonSell {
+    width: 150px;
+    height: 29px;
+    margin-top: -138px;
+    background-color: #0769ad;
+    padding-top: 2px;
+}
+
+
+/*--------------------------items selling-------*/
+
+h2 {
+    text-transform: none;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -20px;
+}
+
+.wrapItems h2 {
+    margin-top: -20px;
+}
+
+hr {
+    width: 25%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.wrapItems {
+    width: 100%;
+}
+
+.innerWrapItems {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sellItem {
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .24);
+    max-height: 379px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    max-width: 226px;
+    transition: all 0.2s ease-in-out;
+}
+
+.imageSellBooks {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 300px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bookText {
+    padding: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sellItem .texTitle,
+.bidItem .texTitle {
+    font-weight: 400;
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+}
+
+.textSmall {
+    color: #777;
+    font-weight: normal;
+}
+
+.numberItems {
+    font-size: 11px;
+}
+
+.myBtnItems {
+    margin-top: 15px;
+    width: 108px;
+    height: 30px;
+    color: black;
+    background-color: #0769ad;
+    line-height: 10px;
+}
+
+.collection {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.bidItem {
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .24);
+    max-height: 410px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    max-width: 226px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bidItem img {
+    height: 170px;
+}
+
+.price {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 15px;
+}
+
+.bidItem {
+    display: relative;
+}
+
+.price {
+    position: absolute;
+    top: 15px;
+    right: 9px;
+    background: #080808;
+    color: wheat;
+    padding: 5px;
+    font-size: 21px;
+}
+
+.caretAlign {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 86px;
+}
+
+.caretAlignUp {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 86px;
+}
+
+.toggleHideSell {
+    cursor: pointer;
+}
+
+.top {
+    margin-top: -84px;
+}
+
+.modal-header,
+.modal-footer {
+    color: black;
+    background-color: #a9bcca;
+    /*background-color: #0769ad;*/
+}
+
+.modal-footer {
+    padding: 8px;
+}
+
+.close {
+    opacity: 1;
+}
+
+.modal-body {
+    display: block;
+    margin-top: -11px;
+}
+
+.modalBid table {
+    border-collapse: collapse;
+}
+
+.modalBid td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.modalInput {
+    margin-left: 40px;
+}
+
+#bidprice {
+    margin-left: 100px;
+}
